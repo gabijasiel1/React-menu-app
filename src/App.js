@@ -2,7 +2,6 @@ import "./App.css"
 import MenuApp from "./components/MenuApp"
 
 function App() {
-  // Sample data from the assignment PDF (used by default)
   const menuData = [
     {
       menuName: "Dinner",
