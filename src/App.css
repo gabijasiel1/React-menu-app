@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f7f7f7;
+  color: #222;
+}
+
+.App {
+  padding: 24px;
+}
+
+.menu {
+  background: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.menu h1 {
+  margin: 0 0 12px;
+  font-size: 22px;
+}
+
+.menuItems {
+  display: grid;
+  gap: 12px;
+}
+
+.menu-item {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+}
+
+.menu-item span {
+  display: inline-block;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.menu-item h2 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.menu-item p {
+  margin: 0 0 10px;
+  line-height: 1.35;
+}
+
+.menu-item button {
+  border: 0;
+  border-radius: 6px;
+  padding: 8px 10px;
+  background: #111;
+  color: white;
+  cursor: pointer;
+}
+
